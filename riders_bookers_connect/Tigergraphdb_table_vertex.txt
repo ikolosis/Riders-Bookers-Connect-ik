@@ -1,0 +1,98 @@
+
+Below are list of Tables/Vertex  and their various data types that I used to create and Connect the application Tigergraph Cloud Database 
+
+
+
+Application Name: Transporter Booking Connect
+Vertex: users
+
+primary id: email (string)
+password: string
+fullname string
+photo string
+timer string
+points string
+posts string
+comments string
+uid string
+
+
+
+
+vertex: posts
+
+primary id: id (int)
+title  string
+title_seo string
+content string
+userid string
+fullname string
+userphoto string
+total_comments string
+data_type string
+timer string
+photo string
+email string
+price_amount string
+depature_time string
+arrival_time string
+pickup_address string
+destination_address string
+pickup_address_latitude string
+pickup_address_longitude string
+destination_address_latitude string
+destination_address_longitude string
+total_seat_capacity string
+total_seat_available string
+vehicle_plate_no string
+vehicle_type string
+total_booking string
+
+
+
+
+
+vertex: notification
+
+primary id: id (int)
+post_id  string
+userid string
+fullname string
+photo string
+reciever_id string
+status string
+data_type string
+timing string
+title string 
+title_seo string
+
+
+
+
+vertex: comments
+
+primary id: id (int)
+postid string
+comment string
+timer string
+userid string
+fullname string
+photo string
+
+
+
+vertex: bookings
+
+primary id: id (int)
+postid string
+comment string
+timer string
+userid string
+fullname string
+photo string
+
+
+
+
+
+
